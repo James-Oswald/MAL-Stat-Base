@@ -1,0 +1,37 @@
+<schema>
+    <document name="myanimelist">
+        <element name="myinfo">
+            <text name="user_id" ignore="yes"/>
+            <text name="user_name"/>
+            <text name="user_export_type" ignore="yes"/>
+            <text name="user_total_anime"/>
+            <text name="user_total_watching"/>
+            <text name="user_total_completed"/>
+            <text name="user_total_onhold"/>
+            <text name="user_total_dropped"/>
+            <text name="user_total_plantowatch"/>
+        </element>
+        <collection name="anime">
+            <text name="series_animedb_id" ignore="yes"/>
+            <text name="series_title"/>
+            <text name="series_type"/>
+            <text name="series_episodes"/>
+            <text name="my_id" ignore="yes"/>
+            <text name="my_watched_episodes"/>
+            <text name="my_start_date"/>
+            <text name="my_finish_date"/>
+            <text name="my_rated"/>
+            <text name="my_score"/>
+            <text name="my_dvd" ignore="yes"/>
+            <text name="my_storage" ignore="yes"/>
+            <text name="my_status"/>
+            <text name="my_comments" ignore="yes"/>
+            <text name="my_times_watched"/>
+            <text name="my_rewatch_value" ignore="yes"/>
+            <text name="my_tags"/>
+            <text name="my_rewatching" ignore="yes"/>
+            <text name="my_rewatching_ep" ignore="yes"/>
+            <text name="update_on_import" ignore="yes"/>
+        </collection>
+    </document>
+</schema>
