@@ -10,8 +10,8 @@
 #include<boost/property_tree/xml_parser.hpp>
 #include<boost/date_time/gregorian/gregorian.hpp>
 
-//#include<gtkmm-3.0/gtkmm/window.h>
-//#include<gtkmm-3.0/gtkmm/button.h>
+#include<d2d1.h>
+#include<windows.h>
 
 using namespace std;
 namespace pt = boost::property_tree;

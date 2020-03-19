@@ -85,7 +85,10 @@
         "cinttypes": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled",
-    "C_Cpp.default.includePath": ["C:\\msys64\\mingw64\\include"],
+    "C_Cpp.default.includePath":[
+        "C:\\msys64\\mingw64\\include",
+        "C:\\msys64\\mingw64\\x86_64-w64-mingw32\\include"
+    ],
     "compiler-explorer.url": "http://localhost:10240",
     "compiler-explorer.include": ["\\mnt\\c\\msys64\\mingw64\\include"]
 }
